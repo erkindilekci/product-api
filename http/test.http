@@ -1,0 +1,25 @@
+### Add new product
+POST localhost:8080/api/v1/products
+Content-Type: application/json
+
+{
+  "name": "Logitech Mx Keys",
+  "price": 120.0,
+  "discount": 15.0,
+  "store": "Amazon"
+}
+
+### Get all products
+GET localhost:8080/api/v1/products
+
+### Get products by store name
+GET localhost:8080/api/v1/products?store=Amazon
+
+### Get product with id
+GET localhost:8080/api/v1/products/1
+
+### Update product price
+PUT localhost:8080/api/v1/products/1?newPrice=130.0
+
+### Delete product with id
+DELETE localhost:8080/api/v1/products/1
