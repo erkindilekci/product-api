@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/erkindilekci/product-app/pkg/domain"
+	"github.com/erkindilekci/product-api/pkg/domain"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/labstack/gommon/log"

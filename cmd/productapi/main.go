@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/erkindilekci/product-app/pkg/common/app"
-	"github.com/erkindilekci/product-app/pkg/common/postgresql"
-	"github.com/erkindilekci/product-app/pkg/controller"
-	"github.com/erkindilekci/product-app/pkg/repository"
-	"github.com/erkindilekci/product-app/pkg/service"
+	"github.com/erkindilekci/product-api/pkg/common/app"
+	"github.com/erkindilekci/product-api/pkg/common/postgresql"
+	"github.com/erkindilekci/product-api/pkg/controller"
+	"github.com/erkindilekci/product-api/pkg/repository"
+	"github.com/erkindilekci/product-api/pkg/service"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/gommon/log"
 )

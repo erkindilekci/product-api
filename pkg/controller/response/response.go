@@ -1,6 +1,6 @@
 package response
 
-import "github.com/erkindilekci/product-app/pkg/domain"
+import "github.com/erkindilekci/product-api/pkg/domain"
 
 type ErrorResponse struct {
 	ErrorMessage string `json:"error_message"`

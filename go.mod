@@ -1,4 +1,4 @@
-module github.com/erkindilekci/product-app
+module github.com/erkindilekci/product-api
 
 go 1.23.0
 

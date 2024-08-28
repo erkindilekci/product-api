@@ -2,9 +2,9 @@ package service
 
 import (
 	"errors"
-	"github.com/erkindilekci/product-app/pkg/domain"
-	"github.com/erkindilekci/product-app/pkg/repository"
-	"github.com/erkindilekci/product-app/pkg/service/dto"
+	"github.com/erkindilekci/product-api/pkg/domain"
+	"github.com/erkindilekci/product-api/pkg/repository"
+	"github.com/erkindilekci/product-api/pkg/service/dto"
 )
 
 type IProductService interface {

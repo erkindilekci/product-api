@@ -1,9 +1,9 @@
 package srvc
 
 import (
-	"github.com/erkindilekci/product-app/pkg/domain"
-	"github.com/erkindilekci/product-app/pkg/service"
-	"github.com/erkindilekci/product-app/pkg/service/dto"
+	"github.com/erkindilekci/product-api/pkg/domain"
+	"github.com/erkindilekci/product-api/pkg/service"
+	"github.com/erkindilekci/product-api/pkg/service/dto"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

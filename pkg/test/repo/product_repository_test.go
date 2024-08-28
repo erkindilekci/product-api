@@ -3,9 +3,9 @@ package repo
 import (
 	"context"
 	"fmt"
-	"github.com/erkindilekci/product-app/pkg/common/postgresql"
-	"github.com/erkindilekci/product-app/pkg/domain"
-	"github.com/erkindilekci/product-app/pkg/repository"
+	"github.com/erkindilekci/product-api/pkg/common/postgresql"
+	"github.com/erkindilekci/product-api/pkg/domain"
+	"github.com/erkindilekci/product-api/pkg/repository"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/stretchr/testify/assert"
 	"os"

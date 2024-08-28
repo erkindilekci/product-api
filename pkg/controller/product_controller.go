@@ -2,10 +2,10 @@ package controller
 
 import (
 	"fmt"
-	"github.com/erkindilekci/product-app/pkg/controller/request"
-	"github.com/erkindilekci/product-app/pkg/controller/response"
-	"github.com/erkindilekci/product-app/pkg/domain"
-	"github.com/erkindilekci/product-app/pkg/service"
+	"github.com/erkindilekci/product-api/pkg/controller/request"
+	"github.com/erkindilekci/product-api/pkg/controller/response"
+	"github.com/erkindilekci/product-api/pkg/domain"
+	"github.com/erkindilekci/product-api/pkg/service"
 	"github.com/labstack/echo/v4"
 	"net/http"
 	"strconv"

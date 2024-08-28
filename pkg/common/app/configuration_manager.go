@@ -1,6 +1,6 @@
 package app
 
-import "github.com/erkindilekci/product-app/pkg/common/postgresql"
+import "github.com/erkindilekci/product-api/pkg/common/postgresql"
 
 type ConfigurationManager struct {
 	PostgresqlConfig postgresql.Config

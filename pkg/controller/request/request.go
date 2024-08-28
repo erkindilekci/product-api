@@ -1,6 +1,6 @@
 package request
 
-import "github.com/erkindilekci/product-app/pkg/service/dto"
+import "github.com/erkindilekci/product-api/pkg/service/dto"
 
 type AddProductRequest struct {
 	Name     string  `json:"name"`
